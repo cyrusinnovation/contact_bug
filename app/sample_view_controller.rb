@@ -22,24 +22,16 @@ class SampleViewController < UIViewController
 
 
   def peoplePickerNavigationController(peoplePicker, shouldContinueAfterSelectingPerson:person)
-    # self.displayPerson(person)
-    # self.dismissModalViewControllerAnimated(true)
-
     return true
   end
 
   def peoplePickerNavigationController(peoplePicker, shouldContinueAfterSelectingPerson:person,
                                   property:property, identifier:identifier)
-      puts "property: #{property}, id: #{identifier}"
-      #textField.textlabel.text = property.getStuff()
-      record_id = ABRecordGetRecordID(person)
-      puts "the record id is: #{record_id}"
-
-      aValueFromPerson = ABRecordCopyValue(person, 0)
-      puts "a puts"
-      puts "a value: #{aValueFromPerson.type}"
-      puts "a value: #{aValueFromPerson.to_s}"
-      @current_cell.textLabel.email = aValueFromPerson
+      # record_id = ABRecordGetRecordID(person)
+      # puts "the record id is: #{record_id}"
+      puts "About to copy value"
+      first_name = ABRecordCopyValue(person, KABPersonFirstNameProperty)
+      puts "First name: #{first_name}"
       return true
   end
   
