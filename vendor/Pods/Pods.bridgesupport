@@ -1,0 +1,383 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<class name='ABContact'>
+<method selector='addressArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='addressDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='addressLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='addressWithStreet:withCity:withState:withZip:withCountry:withCode:'>
+<arg index='0' name='street' declared_type='NSString*' type='@'/>
+<arg index='1' name='city' declared_type='NSString*' type='@'/>
+<arg index='2' name='state' declared_type='NSString*' type='@'/>
+<arg index='3' name='zip' declared_type='NSString*' type='@'/>
+<arg index='4' name='country' declared_type='NSString*' type='@'/>
+<arg index='5' name='code' declared_type='NSString*' type='@'/>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method class_method='true' selector='arrayForProperty:inRecord:'>
+<arg index='0' name='anID' declared_type='id' type='@'/>
+<arg index='1' name='record' declared_type='id' type='@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='baseDataRepresentation'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='baseDictionaryRepresentation'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method selector='birthday'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+<method selector='compositeName'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='contact'>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='contactName'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='contactWithData:'>
+<arg index='0' name='data' declared_type='NSData*' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='contactWithDictionary:'>
+<arg index='0' name='dict' declared_type='NSDictionary*' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='contactWithRecord:'>
+<arg index='0' name='record' declared_type='id' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='contactWithRecordID:'>
+<arg index='0' name='recordID' declared_type='id' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='creationDate'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+<method selector='dataRepresentation'>
+<retval declared_type='NSData*' type='@'/>
+</method>
+<method selector='dateArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='dateDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='dateLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='department'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='dictionaryRepresentation'>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method class_method='true' selector='dictionaryWithValue:andLabel:'>
+<arg index='0' name='value' declared_type='id' type='@'/>
+<arg index='1' name='label' declared_type='CFStringRef' type='^{__CFString=}'/>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method selector='emailArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='emailDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='emailLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='emailaddresses'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='firstname'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='firstnamephonetic'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='image'>
+<retval declared_type='int*' type='^i'/>
+</method>
+<method selector='isPerson'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='jobtitle'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='kind'>
+<retval declared_type='NSNumber*' type='@'/>
+</method>
+<method selector='lastname'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='lastnamephonetic'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='localizedPropertyName:'>
+<arg index='0' name='aProperty' declared_type='id' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='middlename'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='middlenamephonetic'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='modificationDate'>
+<retval declared_type='NSDate*' type='@'/>
+</method>
+<method selector='nickname'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='note'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='objectForProperty:inRecord:'>
+<arg index='0' name='anID' declared_type='id' type='@'/>
+<arg index='1' name='record' declared_type='id' type='@'/>
+<retval declared_type='id' type='@'/>
+</method>
+<method selector='organization'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='phoneArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='phoneDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='phoneLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='phonenumbers'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='prefix'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='propertyIsMultivalue:'>
+<arg index='0' name='aProperty' declared_type='id' type='@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='propertyString:'>
+<arg index='0' name='aProperty' declared_type='id' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method class_method='true' selector='propertyType:'>
+<arg index='0' name='aProperty' declared_type='id' type='@'/>
+<retval declared_type='ABPropertyType' type='l'/>
+</method>
+<method class_method='true' selector='propertyTypeString:'>
+<arg index='0' name='aProperty' declared_type='id' type='@'/>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='record'>
+<retval declared_type='int' type='i'/>
+</method>
+<method selector='recordID'>
+<retval declared_type='int' type='i'/>
+</method>
+<method selector='recordType'>
+<retval declared_type='int' type='i'/>
+</method>
+<method selector='relatedNameArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='relatedNameDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='relatedNameLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='removeSelfFromAddressBook:'>
+<arg index='0' name='error' declared_type='NSError**' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method selector='setAddressDictionaries:'>
+<arg index='0' name='addressDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setBirthday:'>
+<arg index='0' name='birthday' declared_type='NSDate*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDateDictionaries:'>
+<arg index='0' name='dateDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setDepartment:'>
+<arg index='0' name='department' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setEmailDictionaries:'>
+<arg index='0' name='emailDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFirstname:'>
+<arg index='0' name='firstname' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setFirstnamephonetic:'>
+<arg index='0' name='firstnamephonetic' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setImage:'>
+<arg index='0' name='image' declared_type='int*' type='^i'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setJobtitle:'>
+<arg index='0' name='jobtitle' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setKind:'>
+<arg index='0' name='kind' declared_type='NSNumber*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLastname:'>
+<arg index='0' name='lastname' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setLastnamephonetic:'>
+<arg index='0' name='lastnamephonetic' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMiddlename:'>
+<arg index='0' name='middlename' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setMiddlenamephonetic:'>
+<arg index='0' name='middlenamephonetic' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setNickname:'>
+<arg index='0' name='nickname' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setNote:'>
+<arg index='0' name='note' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setOrganization:'>
+<arg index='0' name='organization' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPhoneDictionaries:'>
+<arg index='0' name='phoneDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setPrefix:'>
+<arg index='0' name='prefix' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setRelatedNameDictionaries:'>
+<arg index='0' name='relatedNameDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSmsDictionaries:'>
+<arg index='0' name='smsDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setSuffix:'>
+<arg index='0' name='suffix' declared_type='NSString*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='setUrlDictionaries:'>
+<arg index='0' name='urlDictionaries' declared_type='NSArray*' type='@'/>
+<retval declared_type='void' type='v'/>
+</method>
+<method selector='smsArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='smsDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='smsLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='smsWithService:andUser:'>
+<arg index='0' name='service' declared_type='CFStringRef' type='^{__CFString=}'/>
+<arg index='1' name='userName' declared_type='NSString*' type='@'/>
+<retval declared_type='NSDictionary*' type='@'/>
+</method>
+<method selector='suffix'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+<method selector='urlArray'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='urlDictionaries'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='urlLabels'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method selector='urls'>
+<retval declared_type='NSString*' type='@'/>
+</method>
+</class>
+<class name='ABContactsHelper'>
+<method class_method='true' selector='addContact:withError:'>
+<arg index='0' name='aContact' declared_type='ABContact*' type='@'/>
+<arg index='1' name='error' declared_type='NSError**' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='addGroup:withError:'>
+<arg index='0' name='aGroup' declared_type='ABGroup*' type='@'/>
+<arg index='1' name='error' declared_type='NSError**' type='^@'/>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='addressBook'>
+<retval declared_type='id' type='@'/>
+</method>
+<method class_method='true' selector='contacts'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='contactsCount'>
+<retval declared_type='int' type='i'/>
+</method>
+<method class_method='true' selector='contactsMatchingName:'>
+<arg index='0' name='fname' declared_type='NSString*' type='@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='contactsMatchingName:andName:'>
+<arg index='0' name='fname' declared_type='NSString*' type='@'/>
+<arg index='1' name='lname' declared_type='NSString*' type='@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='contactsMatchingPhone:'>
+<arg index='0' name='number' declared_type='NSString*' type='@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='contactsWithImageCount'>
+<retval declared_type='int' type='i'/>
+</method>
+<method class_method='true' selector='contactsWithoutImageCount'>
+<retval declared_type='int' type='i'/>
+</method>
+<method class_method='true' selector='firstNameSorting'>
+<retval declared_type='BOOL' type='B'/>
+</method>
+<method class_method='true' selector='groups'>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='groupsMatchingName:'>
+<arg index='0' name='fname' declared_type='NSString*' type='@'/>
+<retval declared_type='NSArray*' type='@'/>
+</method>
+<method class_method='true' selector='numberOfGroups'>
+<retval declared_type='int' type='i'/>
+</method>
+</class>
+<class name='NSString'>
+<method selector='UTF8String'>
+<retval declared_type='char*' type='*'/>
+</method>
+</class>
+</signatures>
