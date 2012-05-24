@@ -1,0 +1,15 @@
+To get this to work, you'll need at least one contact in the simulator. Give them at least a first name and an email address.
+
+Run the app, and select a contact. In the console, you should see some lines like:
+
+>>>>>>>> Getting the record id
+>>>>>>>> the record id is: 147433984
+>>>>>>>> About to get first name
+>>>>>>>> Here's the first name: Joe
+
+But what we get is just
+>>>>>>>> Getting the record id
+>>>>>>>> the record id is: 147433984
+>>>>>>>> About to get first name
+
+and then the app quits the simulator
